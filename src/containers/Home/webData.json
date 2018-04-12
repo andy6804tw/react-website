@@ -1,0 +1,76 @@
+[
+  {
+    "key": "Util",
+    "title": "Tools",
+    "desc": "製作簡單、方便、好用的小工具可以幫助很多剛開始踏入 React 的新手快速的熟悉，像是 StartKit 就是我們想讓大家可以快速上手的所搭件的橋樑",
+    "dataList": [
+      {
+        "key": "react_thumbnail",
+        "name": "React Thumbnail",
+        "description": "React 使用antd上傳圖片、影片，並取得base64的image呈現縮圖。",
+        "img": "https://i.imgur.com/6cp9Nl3.png",
+        "demoUrl": "https://reactmaker.github.io/react_generator/",
+        "repoUrl": "https://github.com/ReactMaker/react_thumbnail"
+      }
+    ]
+  },
+  {
+    "key": "game",
+    "title": "Games",
+    "desc": "復刻經典的小遊戲，透過 React 讓大家學習怎麼去操作 DOM 並且用 data-driven 的方式來更新畫面，讓所學融會貫通。",
+    "dataList": [
+      {
+        "key": "react_challenge_1to50",
+        "name": "1 To 50",
+        "description": "React JS 製作1 to 50遊戲",
+        "img": "https://i.imgur.com/jdMHS9t.gif",
+        "demoUrl": "http://reactmaker.github.io/react_challenge_1to50",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_1to50/"
+      }
+    ]
+  },
+  {
+    "key": "live",
+    "title": "Live Videos",
+    "desc": "我們如果有時間就會透過 zoom/FB 為各位做直播分享 React 的相關知識或是實戰，每次結束之後就會錄影放在 Youtube 上面，你可以點選影片來回顧。",
+    "dataList": [
+      {
+        "key": "ReactMaker#1",
+        "name": "(上)教到你嫑嫑的 React 工作坊",
+        "description": "ReactMaker的第一場Workshop並且與高雄前端一起合辦。高雄今年唯一整整六小時 React.js workshop！",
+        "img": "https://i.imgur.com/up4Rcaw.jpg",
+        "demoUrl": "https://youtu.be/UnJx8shu4Zk"
+      },
+      {
+        "key": "ReactMaker#1-1",
+        "name": "(下)教到你嫑嫑的 React 工作坊",
+        "description": "ReactMaker的第一場Workshop並且與高雄前端一起合辦。高雄今年唯一整整六小時 React.js workshop！",
+        "img": "https://i.imgur.com/up4Rcaw.jpg",
+        "demoUrl": "https://youtu.be/qXczgeD8YFc"
+      }
+    ]
+  },
+  {
+    "key": "js30ay",
+    "title": "JS 100 Day",
+    "desc": "JS 30 Day 是 Wes Bos 知名的免費教學，我們挑選出可以被 React 化的一些章節實作，並且放在我們的 Github 上面讓大家可以複製回去動手做做看。",
+    "dataList": [
+      {
+        "key": "tutorial_props",
+        "name": "Tutorial_props",
+        "description": "教你怎麼抽出元件，然後從外面把數值傳入元件內，搭配一個卡片的範例，很簡單懂的。",
+        "img": "https://i.imgur.com/0ziZh1v.gif",
+        "demoUrl": "https://reactmaker.github.io/tutorial_props/",
+        "repoUrl": "https://github.com/ReactMaker/tutorial_props"
+      },
+      {
+        "key": "react_challenge_mouse_move_shadow",
+        "name": "React Mouse Move",
+        "description": "用 ReactJS 來監聽滑鼠移動的事件，當游標停止超過一秒鐘，寶貝球就會往游標飄移過去。",
+        "img": "https://i.imgur.com/Zf9EN1J.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_mouse_move_shadow/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_mouse_move_shadow"
+      }
+    ]
+  }
+]
