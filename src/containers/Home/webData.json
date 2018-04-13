@@ -40,18 +40,11 @@
         "description": "ReactMaker的第一場Workshop並且與高雄前端一起合辦。高雄今年唯一整整六小時 React.js workshop！",
         "img": "https://i.imgur.com/up4Rcaw.jpg",
         "demoUrl": "https://youtu.be/UnJx8shu4Zk"
-      },
-      {
-        "key": "ReactMaker#1-1",
-        "name": "(下)教到你嫑嫑的 React 工作坊",
-        "description": "ReactMaker的第一場Workshop並且與高雄前端一起合辦。高雄今年唯一整整六小時 React.js workshop！",
-        "img": "https://i.imgur.com/up4Rcaw.jpg",
-        "demoUrl": "https://youtu.be/qXczgeD8YFc"
       }
     ]
   },
   {
-    "key": "js30ay",
+    "key": "js30day",
     "title": "JS 100 Day",
     "desc": "JS 30 Day 是 Wes Bos 知名的免費教學，我們挑選出可以被 React 化的一些章節實作，並且放在我們的 Github 上面讓大家可以複製回去動手做做看。",
     "dataList": [

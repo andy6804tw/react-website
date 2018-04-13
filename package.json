@@ -17,8 +17,10 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-fontawesome": "^1.6.1",
     "ress": "^1.2.2"
   },
   "devDependencies": {
