@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
+// import package
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Home/Home';
+import NotFound from './NotFound';
 
-export default class Main extends Component {
-  render() {
-    return (
-      <div>
-        <Home />
-      </div>
-    );
-  }
-}
+const Main = () => (
+  <Router>
+    <Switch>
+      <Route path="/" component={Home} />
+      <Route component={NotFound} />
+    </Switch>
+  </Router>
+);
+
+export default Main;
+

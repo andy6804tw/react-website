@@ -11,6 +11,22 @@
         "img": "https://i.imgur.com/6cp9Nl3.png",
         "demoUrl": "https://reactmaker.github.io/react_generator/",
         "repoUrl": "https://github.com/ReactMaker/react_thumbnail"
+      },
+      {
+        "key": "react_generator",
+        "name": "React Generator",
+        "description": "使用React+Material UI+Mobx實作React程式碼產生器只要修改左側名稱，右邊會即時顯示React程式碼結構",
+        "img": "https://i.imgur.com/S6pQRWF.png",
+        "demoUrl": "https://reactmaker.github.io/react_thumbnail/",
+        "repoUrl": "https://github.com/ReactMaker/react_generator"
+      },
+      {
+        "key": "simple_react_start_kit_2017",
+        "name": "Simple React Start Kit 2017",
+        "description": "這個環境包可以讓你快速體驗ReactJS開發環境的便利，希望可以讓你用最簡單的環境開始學習React。",
+        "img": "https://i.imgur.com/GyCojI4.png",
+        "demoUrl": "",
+        "repoUrl": "https://github.com/ReactMaker/simple_react_start_kit_2017"
       }
     ]
   },
@@ -26,6 +42,46 @@
         "img": "https://i.imgur.com/jdMHS9t.gif",
         "demoUrl": "http://reactmaker.github.io/react_challenge_1to50",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_1to50/"
+      },
+      {
+        "key": "react_challenge_davinci_code",
+        "name": "davinci_code",
+        "description": "React JS 製作終極密碼遊戲，電腦隨機從1~100中抽取數字，讓使用者進行猜數字。",
+        "img": "https://i.imgur.com/aOYwYzh.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_davinci_code/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_davinci_code"
+      },
+      {
+        "key": "react_challenge_train99",
+        "name": "train99",
+        "description": "React JS 製作特訓 99 閃避子彈遊戲",
+        "img": "https://i.imgur.com/8SCdR7n.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_train99/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_train99"
+      },
+      {
+        "key": "react_challenge_snake_game",
+        "name": "snake game",
+        "description": "ReactJs 實作貪食蛇小遊戲",
+        "img": "https://i.imgur.com/2GaNWDY.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_snake_game/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_snake_game"
+      },
+      {
+        "key": "tic_tac_toe",
+        "name": "TIC TAC TOE",
+        "description": "用ReactJS做出井字遊戲",
+        "img": "https://i.imgur.com/tnb9RyG.gif",
+        "demoUrl": "https://reactmaker.github.io/tic_tac_toe/",
+        "repoUrl": "https://github.com/ReactMaker/tic_tac_toe"
+      },
+      {
+        "key": "react_challenge_whack_a_mole_game",
+        "name": "Whack A Mole Game",
+        "description": "ReactJS 實作打地鼠小遊戲",
+        "img": "https://i.imgur.com/g1ftDih.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_whack_a_mole_game/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_whack_a_mole_game"
       }
     ]
   },
@@ -40,12 +96,75 @@
         "description": "ReactMaker的第一場Workshop並且與高雄前端一起合辦。高雄今年唯一整整六小時 React.js workshop！",
         "img": "https://i.imgur.com/up4Rcaw.jpg",
         "demoUrl": "https://youtu.be/UnJx8shu4Zk"
+      },
+      {
+        "key": "ReactMaker#1-1",
+        "name": "(下)教到你嫑嫑的 React 工作坊",
+        "description": "ReactMaker的第一場Workshop並且與高雄前端一起合辦。高雄今年唯一整整六小時 React.js workshop！",
+        "img": "https://i.imgur.com/up4Rcaw.jpg",
+        "demoUrl": "https://youtu.be/qXczgeD8YFc"
+      },
+      {
+        "key": "ReactMaker#2",
+        "name": "ReactMaker#2 Live",
+        "description": "『直播預告』8/24　19:30 React-Pokemon，找神奇寶貝的套件～～",
+        "img": "https://i.imgur.com/ILhkNXR.jpg",
+        "demoUrl": "https://youtu.be/2at9LfkBUqk"
+      },
+      {
+        "key": "ReactMaker#3",
+        "name": "ReactMaker#3 Live",
+        "description": "『直播預告』8/31 19:30 react-lorem-component，廢文產生器，一起來產生廢文吧！！",
+        "img": "https://i.imgur.com/XnuvDLa.jpg",
+        "demoUrl": "https://youtu.be/T0Em0AUns9w"
+      },
+      {
+        "key": "ReactMaker#4",
+        "name": "ReactMaker#4 Live",
+        "description": "『直播預告』9/07 19:30 QRCode-React-Component，利用React產生出QRCode，產生出自己的QRCode吧",
+        "img": "https://i.imgur.com/uGavOvs.jpg",
+        "demoUrl": "https://youtu.be/kS9PjfnC-5g"
+      },
+      {
+        "key": "ReactMaker#5",
+        "name": " ReactMaker#5 Live",
+        "description": "『直播預告』9/14 19:30 Timeago-React-Component，利用React產生出簡單的顯示時間套件",
+        "img": "https://i.imgur.com/h9NSgWo.jpg",
+        "demoUrl": "https://youtu.be/e-FH8L1e67M"
+      },
+      {
+        "key": "ReactMaker#6",
+        "name": "Official web week01(Live 6)",
+        "description": "『Official_web』9/21 19:30，進度：基礎架構建置、頁面Component、JSON設定檔",
+        "img": "https://i.imgur.com/cWCMDlQ.jpg",
+        "demoUrl": "https://youtu.be/fEiidoMLArs"
+      },
+      {
+        "key": "ReactMaker#7",
+        "name": "Official web week02(Live 7)",
+        "description": "『Official_web』09/28 19:30，進度：卡片、浮動特效",
+        "img": "https://i.imgur.com/7sqJaBM.jpg",
+        "demoUrl": "https://youtu.be/mRHmUciDk_4"
+      },
+      {
+        "key": "ReactMaker#8",
+        "name": "Official web week03(Live 8)",
+        "description": "『Official_web』10/05 19:30，進度：page transition(react-router-transition)、",
+        "img": "https://i.imgur.com/p5fd47W.jpg",
+        "demoUrl": "https://youtu.be/y5j0rDPlKS0"
+      },
+      {
+        "key": "ReactMaker#9",
+        "name": "Official web week04(Live 9)",
+        "description": "『Official_web』10/12 19:30，進度：多行文字溢出省略、內頁menu切換及內容",
+        "img": "https://i.imgur.com/WrVrUo3.jpg",
+        "demoUrl": "https://youtu.be/y5j0rDPlKS0"
       }
     ]
   },
   {
     "key": "js30day",
-    "title": "JS 100 Day",
+    "title": "JS 30 Day",
     "desc": "JS 30 Day 是 Wes Bos 知名的免費教學，我們挑選出可以被 React 化的一些章節實作，並且放在我們的 Github 上面讓大家可以複製回去動手做做看。",
     "dataList": [
       {
@@ -63,6 +182,134 @@
         "img": "https://i.imgur.com/Zf9EN1J.gif",
         "demoUrl": "https://reactmaker.github.io/react_challenge_mouse_move_shadow/",
         "repoUrl": "https://github.com/ReactMaker/react_challenge_mouse_move_shadow"
+      },
+      {
+        "key": "react_challenge_flex_panel_gallery",
+        "name": "React_challenge_flex_panel_gallery",
+        "description": "React JS 製作出來的開合相簿動畫，點擊不同的圖片會張開，並且透過 css animation 來讓文字掉下來。",
+        "img": "https://imgur.com/VFPryMK.png",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_flex_panel_gallery/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_flex_panel_gallery"
+      },
+      {
+        "key": "react_challenge_clock",
+        "name": "React clock",
+        "description": "這是一個使用 React 做出時鐘的範例。",
+        "img": "https://imgur.com/LcNqCuV.png",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_clock/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_clock"
+      },
+      {
+        "key": "react_challenge_hold_shift_to_check_multiple_checkboxe",
+        "name": "Hold shift to check multiple checkboxes",
+        "description": "用 React JS 製作check list，並加上點擊shift 可複選的功能。",
+        "img": "https://imgur.com/7kNs3At.png",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_hold_shift_to_check_multiple_checkboxes/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_hold_shift_to_check_multiple_checkboxes"
+      },
+      {
+        "key": "react_challenge_ajax_type_ahead",
+        "name": "React challenge - Ajax type ahead",
+        "description": "使用React 做出ajax 載入搜尋列表的功能。",
+        "img": "https://imgur.com/QT7agpy.png",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_ajax_type_ahead/#/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_ajax_type_ahead"
+      },
+      {
+        "key": "react_challenge_Key_Sequence_Detection",
+        "name": "Key_Sequence_Detection",
+        "description": "可以讓網頁偵測使用者輸入的字，當字串符合密碼以後解鎖按鈕。",
+        "img": "https://i.imgur.com/p4T31bx.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_Key_Sequence_Detection/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_Key_Sequence_Detection"
+      },
+      {
+        "key": "react_challenge_countdown_timer",
+        "name": "Countdown Timer",
+        "description": "Reactjs製作倒數計時器，搭配moment.js幫助我們快速格式化時間，可自行輸入分鐘轉換成倒數計時時間。",
+        "img": "https://i.imgur.com/AOMgwIs.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_countdown_timer/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_countdown_timer"
+      },
+      {
+        "key": "react_challenge_css_variables",
+        "name": "React CSS Variables",
+        "description": "用 ReactJS 來做一個調整CSS數值，並對圖片產生邊框加粗、模糊、變色等效果。",
+        "img": "https://i.imgur.com/lestLxx.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_css_variables/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_css_variables"
+      },
+      {
+        "key": "react_challenge_drum_kit",
+        "name": "React Drum Kit",
+        "description": "用 ReactJS 來做一個鼓手敲擊介面，藉由敲擊鍵盤來讓網站發出鼓聲。",
+        "img": "https://i.imgur.com/CZFbDUh.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_drum_kit/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_drum_kit"
+      },
+      {
+        "key": "react_challenge_html5_canvas",
+        "name": "React Html5 Canvas",
+        "description": "用 ReactJS + Html5 Canvas實作繪圖板 畫筆顏色及粗細隨著滑鼠移動而改變。",
+        "img": "https://i.imgur.com/LC8F7S3.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_html5_canvas/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_html5_canvas"
+      },
+      {
+        "key": "react_challenge_speech_synthesis",
+        "name": "Speech synthesis",
+        "description": "使用SpeechSynthesisUtterance讓瀏覽器說話。",
+        "img": "https://imgur.com/PYBB7qo.png",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_speech_synthesis/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_speech_synthesis"
+      },
+      {
+        "key": "react_challenge_sorting_price",
+        "name": "Sorting Price",
+        "description": "咖啡豆的範例網站，上面有咖啡豆的名稱跟價錢，點選按鈕可以改變咖啡豆的排序。",
+        "img": "https://i.imgur.com/T6fMjV3.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_sorting_price/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_sorting_price"
+      },
+      {
+        "key": "react_challenge_slide_in_on_scroll",
+        "name": "ｓlide in on scroll",
+        "description": "滾動到定點的時候會產生動畫的範例。",
+        "img": "https://i.imgur.com/sYSKHJ4.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_slide_in_on_scroll/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_slide_in_on_scroll"
+      },
+      {
+        "key": "react_challenge_localstorage_and_event_delegation",
+        "name": "localstorage and event delegation",
+        "description": "使用localstorage存取React State。",
+        "img": "https://i.imgur.com/ximJk8c.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_localstorage_and_event_delegation/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_localstorage_and_event_delegation"
+      },
+      {
+        "key": "react_challenge_follow_along_links",
+        "name": "Follow along links",
+        "description": "使用localstorage存取React State。",
+        "img": "https://i.imgur.com/I5yEdCk.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_follow_along_links/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_follow_along_links"
+      },
+      {
+        "key": "react_challenge_click_and_drag",
+        "name": "Click and Drag",
+        "description": "ReactJs搭配javascript滑鼠事件監控，製作出可以在桌面瀏覽器拖移的效果，按住滑鼠左鍵往左右拖移，頁面就會跟著滾動。",
+        "img": "https://i.imgur.com/KFBtTi5.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_click_and_drag/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_click_and_drag"
+      },
+      {
+        "key": "react_challenge_stripe_follow_along_nav",
+        "name": "Stripe Follow Along Nav",
+        "description": "ReactJs 搭配 javascript 滑鼠事件監控，製作出滑鼠移到選單上，自動出現下拉選單的功能。",
+        "img": "https://i.imgur.com/mJBioH0.gif",
+        "demoUrl": "https://reactmaker.github.io/react_challenge_stripe_follow_along_nav/",
+        "repoUrl": "https://github.com/ReactMaker/react_challenge_stripe_follow_along_nav"
       }
     ]
   }
