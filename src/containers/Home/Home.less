@@ -1,62 +1,73 @@
 @import '../../theme/variables.less';
 
 #pageHome{
-  .section{
-    height: 100vh;
-  }
+  background-image: url('../../static/images/bg2.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   #homeTitle{
-    // 標題置中
-    background-color: #ccc;
+    background-color:#0f1331;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  #game{
-    background-color: #354b5b;
-  }
-  #live{
-    background-color: #e4bfab;
-  }
-  #js30day{
-    background-color: #018bb2;
+    position: relative;
+    color: #eeeeee;
+    font-family: 'Fascinate Inline', cursive;
+    padding-left: 10px;
+    h1{
+      font-size: 3rem;
+    }
+    .scrollDown{
+      font-size: 40px;
+      position: absolute;
+      left: 30px;
+      bottom: 30px;
+      animation-duration: 3s;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
+    }
   }
 
-  .menu{
+  .menu {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: @menu_height;
     background: pink;
-    // 動畫
     opacity: 0;
-    transition:  all .3s ease-in-out;
-    &.slideIn{
+    transition: all 0.5s ease-in-out;
+    &.slideIn {
+      // display: block;
       opacity: 1;
-    };
+    }
+
+    .link {
+      margin-right: 10px;
+    }
   }
 
-  .link{
-    margin-right: 40px;
-  }
-
-  .goHome{
+  .goHome {
     position: fixed;
     top: @menu_height;
     left: 0px;
     width: 60px;
     height: 100vh;
-    background-color: yellow;
+    background: yellow;
     // display: none;
     opacity: 0;
-    transition:  all .3s ease-in-out;
-    &.slideIn{
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-60px);
+    &.slideIn {
       // display: block;
       opacity: 1;
-    };
+      transform: translateX(0px);
+    }
   }
 
-  .animateRoute{
+  .animateRoute {
     position: fixed;
     top: @menu_height;
     left: 60px;
