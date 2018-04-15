@@ -25,7 +25,7 @@ export default class Seection extends Component {
             dataList.map(data => <Card {...data} />)
           }
         </div>
-        <button className="more" onClick={goDetail}> more </button>
+        <button className="more" onClick={() => goDetail(id)}> more </button>
       </div>
     );
   }

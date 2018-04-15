@@ -16,12 +16,16 @@ export default class Home extends Component {
     match: PropTypes.object,
   }
 
-  goDetail = () => {
-    this.props.history.push('/detail');
+  goDetail = (type) => {
+    this.props.history.push(`/detail/${type}`);
   }
 
   render() {
     const { isExact } = this.props.match;
+
+    // 移除背景滑動事件
+    document.getElementsByTagName('html')[0].style.overflow = isExact ? 'auto' : 'hidden';
+
 
     return (
       <div id="pageHome">
@@ -38,12 +42,23 @@ export default class Home extends Component {
               />
             ))
         }
+        {/* isExact 判斷是否在首頁Router */}
+        {/* menu */}
+        <div className={`menu ${!isExact && 'slideIn'}`} >
+          {
+            webJson.map(sectionData => (
+              <Link className="link" to={`/detail/${sectionData.key}`}>{sectionData.title}</Link>
+            ))
+          }
+        </div>
+        {/* 側邊條 */}
         <div className={`goHome ${!isExact && 'slideIn'}`}>
           <Link to="/">{'<-'}</Link>
         </div>
+        {/* 進入  detailPage */}
         <AnimatedRoute
           className="animateRoute"
-          path="/detail"
+          path="/detail/:type"
           component={detailPage}
           atEnter={{ offset: 100 }}
           atLeave={{ offset: 100 }}
