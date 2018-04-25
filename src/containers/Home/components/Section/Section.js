@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Parallax } from 'react-scroll-parallax';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import Card from '../Card';
 import './Section.less';
@@ -20,7 +21,6 @@ export default class Seection extends Component {
     const {
       title, id, dataList, goDetail, desc, reverse
     } = this.props;
-    console.log(`${reverse && 'reverse'}`);
     return (
       <div className={`section ${reverse && 'reverse'}`} id={id}>
         <div className="sectionTitle" >
@@ -36,7 +36,7 @@ export default class Seection extends Component {
         </div>
         <div className="content">
           {
-            dataList.map(data => <Card {...data} />)
+            dataList.map(data => <ScrollAnimation animateIn="fadeIn"><Card {...data} /></ScrollAnimation>)
           }
         </div>
       </div>

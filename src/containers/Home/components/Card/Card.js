@@ -21,7 +21,7 @@ export default class Card extends Component {
       backgroundImage: `URL(${img})`
     };
     return (
-      <ScrollAnimation animateIn="fadeIn">
+      //<ScrollAnimation animateIn="fadeIn">
         <div className="card">
           <div className="bgimg" style={bgStyle} />
           <div className="cardInfo">
@@ -43,7 +43,7 @@ export default class Card extends Component {
             </div>
           </div>
         </div>
-      </ScrollAnimation>
+     // </ScrollAnimation>
     );
   }
 }
